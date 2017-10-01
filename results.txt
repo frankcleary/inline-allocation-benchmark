@@ -1,0 +1,8 @@
+Benchmark                                   Mode  Samples   Score   Error  Units
+c.b.j.Summation.sumBoxed                    avgt      200  39.703 ± 0.381  ms/op
+c.b.j.Summation.sumEscapedMutableWrapper    avgt      200  40.185 ± 0.789  ms/op
+c.b.j.Summation.sumMutableWrapper           avgt      200   3.650 ± 0.014  ms/op
+c.b.j.Summation.sumMutableWrapperOptOff     avgt      200  35.794 ± 0.255  ms/op
+c.b.j.Summation.sumPrimitive                avgt      200   3.619 ± 0.010  ms/op
+c.b.j.Summation.sumStream                   avgt      200  22.794 ± 3.123  ms/op
+
